@@ -60,5 +60,10 @@ namespace HotelTask.Models
                 throw new Exception();
             }
         }
+                public Hotel(string Name)
+        {
+            this.Name = Name;
+            Rooms = new Room[0];
+        }
     }
 }
